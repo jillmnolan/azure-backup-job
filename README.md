@@ -1,4 +1,4 @@
-# @samret/azure-backup-job
+# azure-backup-job
 
 Please be advised that the supervening code snippet will need to be utilized in order for this backup job to be successful.  Of course, you will need to modify accordingly with your unique credentials. If you find an issue with this code, please feel free to submit an issue.  I will be eternally grateful for the feedback.
 
@@ -8,13 +8,13 @@ Please be advised that the supervening code snippet will need to be utilized in 
 2. You will need to run this command at the root of your project:
 
    ```javascript
-    npm i @samret/azure-backup-job
+    npm i azure-backup-job
    ```
 
 ## Code Snippet
 
 ```typescript
-const azureBackupJob = require('@samret/azure-backup-job');
+const azureBackupJob = require('azure-backup-job');
 
 router.post('/api/v1/User/Replace/:originalUserId/:replacementUserId', azureBackupJob(), replaceUser]);
 
