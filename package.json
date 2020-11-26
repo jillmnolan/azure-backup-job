@@ -1,6 +1,6 @@
 {
   "name": "azure-backup-job",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An express middleware npm module for executing an Azure backup job.",
   "main": "dist/app.js",
   "scripts": {
